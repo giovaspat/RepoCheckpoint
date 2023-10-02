@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    color: white;
+    margin: 0;
+}
+
+.list li {
+    margin-right: 1rem;
+}
+
+span {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+img {
+    display:none;
+}
+
+
+#search-line {
+    margin-left: auto;
+    
+}
+
+#box {
+   border-bottom: none;
+   color: red;
+ 
+}
+
+@media screen and (max-width: 768px) {
+    .list, #search-line {
+        display: none;
+    }
+
+    img {
+        display: flex;
+        margin-left: auto;
+    }
+}
+
